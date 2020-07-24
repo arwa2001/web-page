@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>movement</title>
+</head>
+<style>
+.button{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+     }
+.button:hover{
+    background-color: #4CAF50;
+    color: white;
+      }
+.stop{
+     border: none;
+     color: white;
+     padding: 16px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     background-color: white;
+     color: black;
+     border: 2px solid red;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+       }
+.stop:hover{
+     background-color:red;
+     color: white;
+       }
+.b1{
+     position: absolute;
+     left: 60%;
+     top: 50%;
+     }
+.b2{
+     position: absolute;
+     left: 40%;
+     top: 50%;
+     }
+.b3{
+     position: absolute;
+     left: 48%;
+     top: 40%;
+     }
+.b4{
+     position: absolute;
+     left: 48%;
+     top: 60%;
+     }
+</style>
+<body>
+    <button class="button b1">RIGHT</button>
+    <button class="button b2">LEFT</button>
+    <button class="button b3">FORWORD</button>
+    <button class="button b4">BACKWORD</button>
+    <button class="stop">STOP</button>
+</body>
+</html>
